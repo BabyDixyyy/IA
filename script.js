@@ -3,6 +3,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+
 const perguntas = [
     {
         enunciado: "Você está navegando pela internet e encontra um site que utiliza IA para personalizar recomendações de produtos e conteúdo. Qual é a sua reação inicial?",
@@ -70,6 +71,7 @@ const perguntas = [
         ]
     }
 ];
+
 
 let atual = 0;
 let perguntaAtual;
